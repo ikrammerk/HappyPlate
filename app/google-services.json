@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "747491721601",
+    "project_id": "happyplate-eb98a",
+    "storage_bucket": "happyplate-eb98a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747491721601:android:4fb175c414cf41e5662880",
+        "android_client_info": {
+          "package_name": "my.happyplate.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdSOHuNJq4Ti7mnrojF1uU_-_NgVTnu1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
