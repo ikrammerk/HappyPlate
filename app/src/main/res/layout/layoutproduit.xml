@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white"
+    android:padding="5dp">
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/photo5"
+        app:tint="@color/black" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:adjustViewBounds="true"
+        android:background="#939292"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo6" />
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:maxLines="4"
+        android:layout_toStartOf="@+id/button3"
+        android:layout_toEndOf="@+id/image"
+        android:text="Titre"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/fontlob" />
+
+    <TextView
+        android:id="@+id/contenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titre"
+        android:layout_marginTop="5dp"
+        android:layout_toStartOf="@+id/button3"
+        android:layout_toEndOf="@+id/image"
+        android:maxLines="3"
+        android:text="Mélange pour milkshake à la vanille; lait entier; sucre; sirop de maïs à haute teneur en fructose; lait écrémé; lactosérum doux de grade A; crème; arôme naturel et artificiel de vanille; mono et diglycérides; gomme de cellulose; gomme de guar; carraghénane; phosphate dipotassique; citrate de sodium; chlorure de sodium; carbonate de sodium; annatto; colorant caramel; Sirop pour milkshake au chocolat menthe; sirop de maïs à haute teneur en fructose; eau; sirop de maïs; arômes naturels et artificiels; acide citrique; sorbate de potassium et benzoate de sodium (conservateurs); polysorbate 80; extrait de vanille; Jaune 5; Bleu 1; Andes Mints; sucre; huiles végétales partiellement hydrogénées (palme, palmiste); cacao traité à l'alkali; lait écrémé; lactose; concentré de protéines de lait; lécithine de soja (émulsifiant); arômes naturels et artificiels; huile de menthe poivrée; Jaune 5; Bleu 1; Coulis de chocolat Ghirardelli; sucre; eau; fructose; cacao; arôme naturel; chocolat non sucré; sorbate de potassium (conservateur); sel; lécithine de soja (émulsifiant); Garniture fouettée; crème de grade A; saccharose; sirop de maïs; solides de lait écrémé; monoglycérides; arômes naturels et artificiels; sel; gaz protoxyde d'azote; Contient des sulfites; CONTIENT DU SOJA, DU LAIT"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

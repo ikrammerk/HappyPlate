@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "747491721601",
+    "firebase_url": "https://happyplate-eb98a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "happyplate-eb98a",
+    "storage_bucket": "happyplate-eb98a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747491721601:android:30cd1af7e4a57695662880",
+        "android_client_info": {
+          "package_name": "my.happyplate.happyplatev1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdSOHuNJq4Ti7mnrojF1uU_-_NgVTnu1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

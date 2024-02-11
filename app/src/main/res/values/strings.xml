@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HappyPlate</string>
+    <string name="my_food">Ikram</string>
+    <string name="save_your_favorite_food">Take Your Food, Make Your Mood</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="register">sinscrire</string>
+    <string name="welcome">Bienvenue dans HappyPlate</string>
+    <string name="get_started">Commencer</string>
+    <string name="or_sign_in_with">Se connecter avec</string>
+
+    <style name="ToolbarTheme" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="navigationIcon">@drawable/photo9</item>
+    </style>
+    <style name="CustomToolbarTitleStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/fontlob</item>
+    </style>
+
+</resources>
